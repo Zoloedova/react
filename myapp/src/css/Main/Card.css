@@ -2,13 +2,37 @@
 	justify-content: space-between;
 	min-height: 550px;
 	margin-bottom: 2rem;
+	margin-right: 10px;
 	padding: 30px;
 	max-width: 365px;
 }
 
+.card-image {
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 3px 2px 5px 0 #b7cce9;
+	transition: all 0.25s;
+}
+
+.card-image:hover {
+	transform: scale(1.025);
+	cursor: pointer;
+}
+
+.card-category {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	padding: 5px 10px;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background-color: rgba(139, 0, 0, 0.822);
+}
+
 .card-title {
 	margin-top: 1rem;
-
+	font-family: "Russo One", sans-serif;
 	font-size: 1.25rem;
 	font-weight: bold;
 	text-align: center;
@@ -21,13 +45,8 @@
 	color: #514547;
 }
 
-.card-image {
-	height: 200px;
-	border-radius: 10px;
-	box-shadow: 3px 2px 5px 0 #b7cce9;
-}
-
 .card .btn {
+	font-size: 1.15rem;
 	background-color: darkred;
 	color: white;
 	transition: all 0.5s;
